@@ -1,7 +1,7 @@
 ﻿
 namespace Banco
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,7 +30,7 @@ namespace Banco
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.panel3 = new System.Windows.Forms.Panel();

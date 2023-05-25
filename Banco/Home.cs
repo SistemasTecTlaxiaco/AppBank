@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Banco
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace Banco
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            Form2 VDestino = new Form2();
+            Cancelar VDestino = new Cancelar();
             VDestino.Show();
         }
 

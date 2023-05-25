@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Banco
 {
-    public partial class Form2 : Form
+    public partial class Cancelar : Form
     {
-        public Form2()
+        public Cancelar()
         {
             InitializeComponent();
         }

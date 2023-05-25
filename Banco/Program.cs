@@ -16,7 +16,10 @@ namespace Banco
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            // Crea una instancia de la ventana Banco y la muestra
+            Banco banco = new Banco();
+            Application.Run(banco);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Banco
 {
-    partial class Form2
+    partial class Cancelar
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Banco
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cancelar));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
