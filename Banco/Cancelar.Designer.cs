@@ -83,11 +83,11 @@ namespace Banco
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(182, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 21);
+            this.label1.Size = new System.Drawing.Size(99, 21);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Deseas salir";
+            this.label1.Text = "Deseas Salir";
             // 
-            // Form2
+            // Cancelar
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
@@ -98,7 +98,7 @@ namespace Banco
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form2";
+            this.Name = "Cancelar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.ResumeLayout(false);

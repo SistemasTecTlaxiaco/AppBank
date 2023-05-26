@@ -21,5 +21,37 @@ namespace Banco
         {
 
         }
+
+        private void guna2GradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home DHome = new Home();
+            DHome.Show();
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Transferencia DTransferencia = new Transferencia();
+            DTransferencia.Show();
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home DHome = new Home();
+            DHome.Show();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            Cancelar VDestino = new Cancelar();
+            VDestino.Show();
+        }
     }
 }

@@ -145,6 +145,7 @@ namespace Banco
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(874, 263);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // guna2Button5
             // 
@@ -602,7 +603,7 @@ namespace Banco
             this.guna2Button2.FillColor = System.Drawing.Color.White;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.guna2Button2.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button2.Location = new System.Drawing.Point(2, 123);
@@ -666,6 +667,7 @@ namespace Banco
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.Size = new System.Drawing.Size(806, 244);
             this.guna2GradientPanel2.TabIndex = 0;
+            this.guna2GradientPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel2_Paint);
             // 
             // label17
             // 
@@ -854,7 +856,7 @@ namespace Banco
             this.guna2GradientPanel3.Controls.Add(this.label8);
             this.guna2GradientPanel3.Controls.Add(this.label7);
             this.guna2GradientPanel3.Controls.Add(this.pictureBox2);
-            this.guna2GradientPanel3.FillColor = System.Drawing.Color.Navy;
+            this.guna2GradientPanel3.FillColor = System.Drawing.Color.DodgerBlue;
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.Blue;
             this.guna2GradientPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.guna2GradientPanel3.Location = new System.Drawing.Point(77, 83);

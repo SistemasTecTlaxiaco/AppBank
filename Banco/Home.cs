@@ -75,6 +75,20 @@ namespace Banco
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Menu1 DMenu1 = new Menu1();
+            DMenu1.Show();
+
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

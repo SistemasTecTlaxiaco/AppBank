@@ -19,12 +19,14 @@ namespace Banco
 
         private void guna2Button10_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Registro VRegistro = new Registro();
             VRegistro.Show();
         }
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Home VHome = new Home();
             VHome.Show();
         }
@@ -33,6 +35,11 @@ namespace Banco
         {
             Cancelar VDestino = new Cancelar();
             VDestino.Show();
+        }
+
+        private void Banco_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

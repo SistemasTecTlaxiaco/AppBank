@@ -49,8 +49,9 @@ namespace Banco
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-            Home VHome = new Home();
-            VHome.Show();
+            this.Hide();
+            Banco VBanco = new Banco();
+            VBanco.Show();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
