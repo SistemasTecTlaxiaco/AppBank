@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Banco
 {
-    public partial class Menu : Form
+    public partial class Transferencia : Form
     {
-        public Menu()
+        public Transferencia()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
