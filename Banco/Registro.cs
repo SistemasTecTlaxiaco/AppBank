@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace Banco
 {
     public partial class Registro : Form
     {
+        MySqlConnection con = new MySqlConnection("server=localhost;user=root;database=banco;port=3306;password=");
         public Registro()
         {
             InitializeComponent();
@@ -49,6 +51,19 @@ namespace Banco
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
+
+
+            con.Open();
+            MySqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "INSERT INTO datos (nombre,email,usuario,clave, numero_cuenta,cantidad) VALUES ('" + guna2TextBox1.Text+ " "+guna2TextBox2.Text + "', '" + guna2TextBox3.Text + "','" + guna2TextBox5.Text + "','" + guna2TextBox6.Text + "', '" + guna2TextBox4.Text + "','" + 0 + "');";
+            DataTable de = new DataTable();
+            MySqlDataAdapter dp = new MySqlDataAdapter(cmd);
+            dp.Fill(de);
+            con.Close();
+
+
+            MessageBox.Show("Registro exitoso");
             this.Hide();
             Banco VBanco = new Banco();
             VBanco.Show();
@@ -58,6 +73,11 @@ namespace Banco
         {
             Cancelar VDestino = new Cancelar();
             VDestino.Show();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
