@@ -354,6 +354,7 @@ namespace Banco
             this.guna2Button9.Size = new System.Drawing.Size(178, 32);
             this.guna2Button9.TabIndex = 48;
             this.guna2Button9.Text = "Pagar";
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
             // 
             // label8
             // 
