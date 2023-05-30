@@ -21,9 +21,7 @@ namespace Banco
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Cancelar del = new Cancelar();
-            del.Show();
+            Application.Exit();
         }
 
         private void guna2GradientPanel3_Paint(object sender, PaintEventArgs e)
@@ -40,7 +38,6 @@ namespace Banco
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Cancelar cano = new Cancelar();
             cano.Show();
         }
@@ -57,6 +54,13 @@ namespace Banco
             this.Hide();
             Usuario Xbanco = new Usuario();
             Xbanco.Show();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu1 dep = new Menu1();
+            dep.Show();
         }
     }
 }

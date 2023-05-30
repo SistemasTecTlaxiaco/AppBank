@@ -79,5 +79,12 @@ namespace Banco
         {
 
         }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Banco bn = new Banco();
+            bn.Show();
+        }
     }
 }
