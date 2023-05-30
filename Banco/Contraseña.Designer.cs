@@ -86,9 +86,10 @@ namespace Banco
             this.guna2GradientPanel3.Controls.Add(this.guna2TextBox2);
             this.guna2GradientPanel3.Controls.Add(this.guna2TextBox1);
             this.guna2GradientPanel3.Controls.Add(this.label4);
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(305, 10);
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(407, 12);
+            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(578, 457);
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(771, 562);
             this.guna2GradientPanel3.TabIndex = 5;
             // 
             // label2
@@ -96,9 +97,10 @@ namespace Banco
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(21, 20);
+            this.label2.Location = new System.Drawing.Point(28, 25);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 19);
+            this.label2.Size = new System.Drawing.Size(240, 23);
             this.label2.TabIndex = 37;
             this.label2.Text = "Cambio de Contraseña";
             // 
@@ -112,9 +114,10 @@ namespace Banco
             this.guna2Button7.FillColor = System.Drawing.Color.White;
             this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button7.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button7.Location = new System.Drawing.Point(301, 241);
+            this.guna2Button7.Location = new System.Drawing.Point(401, 297);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(135, 32);
+            this.guna2Button7.Size = new System.Drawing.Size(180, 39);
             this.guna2Button7.TabIndex = 49;
             this.guna2Button7.Text = "Ir a Inicio";
             // 
@@ -127,19 +130,21 @@ namespace Banco
             this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.Location = new System.Drawing.Point(110, 241);
+            this.guna2Button9.Location = new System.Drawing.Point(147, 297);
+            this.guna2Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(178, 32);
+            this.guna2Button9.Size = new System.Drawing.Size(237, 39);
             this.guna2Button9.TabIndex = 48;
-            this.guna2Button9.Text = "Comfirmar";
+            this.guna2Button9.Text = "Confirmar";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(21, 161);
+            this.label8.Location = new System.Drawing.Point(28, 198);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(165, 21);
+            this.label8.Size = new System.Drawing.Size(202, 23);
             this.label8.TabIndex = 46;
             this.label8.Text = "Contraseña Actual:";
             // 
@@ -154,14 +159,14 @@ namespace Banco
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(220, 161);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2TextBox2.Location = new System.Drawing.Point(293, 198);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(212, 23);
+            this.guna2TextBox2.Size = new System.Drawing.Size(283, 28);
             this.guna2TextBox2.TabIndex = 44;
             // 
             // guna2TextBox1
@@ -175,23 +180,24 @@ namespace Banco
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(220, 105);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2TextBox1.Location = new System.Drawing.Point(293, 129);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(212, 23);
+            this.guna2TextBox1.Size = new System.Drawing.Size(283, 28);
             this.guna2TextBox1.TabIndex = 43;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(54, 105);
+            this.label4.Location = new System.Drawing.Point(28, 129);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(164, 21);
+            this.label4.Size = new System.Drawing.Size(203, 23);
             this.label4.TabIndex = 42;
             this.label4.Text = "Contraseña Nueva:";
             // 
@@ -201,9 +207,10 @@ namespace Banco
             this.guna2GradientPanel4.BorderColor = System.Drawing.Color.White;
             this.guna2GradientPanel4.BorderRadius = 20;
             this.guna2GradientPanel4.Controls.Add(this.guna2Button5);
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(886, 10);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(1181, 12);
+            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(40, 457);
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(53, 562);
             this.guna2GradientPanel4.TabIndex = 7;
             // 
             // guna2Button5
@@ -219,9 +226,10 @@ namespace Banco
             this.guna2Button5.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button5.Location = new System.Drawing.Point(3, 5);
+            this.guna2Button5.Location = new System.Drawing.Point(4, 6);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(34, 34);
+            this.guna2Button5.Size = new System.Drawing.Size(45, 42);
             this.guna2Button5.TabIndex = 4;
             // 
             // guna2GradientPanel2
@@ -232,9 +240,10 @@ namespace Banco
             this.guna2GradientPanel2.Controls.Add(this.guna2Button6);
             this.guna2GradientPanel2.Controls.Add(this.guna2Button10);
             this.guna2GradientPanel2.Controls.Add(this.label1);
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(77, 10);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(103, 12);
+            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(204, 457);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(272, 562);
             this.guna2GradientPanel2.TabIndex = 4;
             // 
             // guna2Button6
@@ -247,9 +256,10 @@ namespace Banco
             this.guna2Button6.FillColor = System.Drawing.Color.White;
             this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.Location = new System.Drawing.Point(28, 125);
+            this.guna2Button6.Location = new System.Drawing.Point(37, 154);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(135, 32);
+            this.guna2Button6.Size = new System.Drawing.Size(180, 39);
             this.guna2Button6.TabIndex = 36;
             this.guna2Button6.Text = "Notificaciones";
             // 
@@ -264,9 +274,10 @@ namespace Banco
             this.guna2Button10.FillColor = System.Drawing.Color.Silver;
             this.guna2Button10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button10.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button10.Location = new System.Drawing.Point(3, 58);
+            this.guna2Button10.Location = new System.Drawing.Point(4, 71);
+            this.guna2Button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(198, 59);
+            this.guna2Button10.Size = new System.Drawing.Size(264, 73);
             this.guna2Button10.TabIndex = 35;
             this.guna2Button10.Text = "Cambio de Contraseña:";
             // 
@@ -275,9 +286,10 @@ namespace Banco
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(14, 11);
+            this.label1.Location = new System.Drawing.Point(19, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 19);
+            this.label1.Size = new System.Drawing.Size(149, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Configuracion";
             // 
@@ -289,9 +301,10 @@ namespace Banco
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(10, 10);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(13, 12);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(916, 457);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1222, 563);
             this.guna2GradientPanel1.TabIndex = 6;
             // 
             // panel3
@@ -300,9 +313,10 @@ namespace Banco
             this.panel3.Controls.Add(this.guna2Button3);
             this.panel3.Controls.Add(this.guna2VSeparator2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(42, 0);
+            this.panel3.Location = new System.Drawing.Point(56, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(874, 457);
+            this.panel3.Size = new System.Drawing.Size(1166, 563);
             this.panel3.TabIndex = 2;
             // 
             // guna2Button3
@@ -318,18 +332,20 @@ namespace Banco
             this.guna2Button3.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button3.Location = new System.Drawing.Point(420, 211);
+            this.guna2Button3.Location = new System.Drawing.Point(560, 260);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(34, 34);
+            this.guna2Button3.Size = new System.Drawing.Size(45, 42);
             this.guna2Button3.TabIndex = 11;
             // 
             // guna2VSeparator2
             // 
             this.guna2VSeparator2.FillColor = System.Drawing.Color.Gray;
             this.guna2VSeparator2.FillThickness = 2;
-            this.guna2VSeparator2.Location = new System.Drawing.Point(233, 11);
+            this.guna2VSeparator2.Location = new System.Drawing.Point(311, 14);
+            this.guna2VSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2VSeparator2.Name = "guna2VSeparator2";
-            this.guna2VSeparator2.Size = new System.Drawing.Size(16, 436);
+            this.guna2VSeparator2.Size = new System.Drawing.Size(21, 537);
             this.guna2VSeparator2.TabIndex = 10;
             // 
             // panel1
@@ -342,17 +358,19 @@ namespace Banco
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(42, 457);
+            this.panel1.Size = new System.Drawing.Size(56, 563);
             this.panel1.TabIndex = 0;
             // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(4, 415);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(5, 511);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(43, 39);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 4;
             this.guna2PictureBox1.TabStop = false;
@@ -369,9 +387,10 @@ namespace Banco
             this.guna2Button4.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button4.Location = new System.Drawing.Point(3, 164);
+            this.guna2Button4.Location = new System.Drawing.Point(4, 202);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(34, 34);
+            this.guna2Button4.Size = new System.Drawing.Size(45, 42);
             this.guna2Button4.TabIndex = 3;
             // 
             // guna2Button2
@@ -386,9 +405,10 @@ namespace Banco
             this.guna2Button2.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button2.Location = new System.Drawing.Point(2, 123);
+            this.guna2Button2.Location = new System.Drawing.Point(3, 151);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(34, 34);
+            this.guna2Button2.Size = new System.Drawing.Size(45, 42);
             this.guna2Button2.TabIndex = 1;
             // 
             // guna2Button1
@@ -403,17 +423,19 @@ namespace Banco
             this.guna2Button1.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(3, 83);
+            this.guna2Button1.Location = new System.Drawing.Point(4, 102);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(34, 34);
+            this.guna2Button1.Size = new System.Drawing.Size(45, 42);
             this.guna2Button1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox1.Size = new System.Drawing.Size(48, 44);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -433,18 +455,19 @@ namespace Banco
             this.guna2Elipse4.BorderRadius = 36;
             this.guna2Elipse4.TargetControl = this.guna2GradientPanel4;
             // 
-            // Usuario
+            // Contraseña
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(936, 477);
+            this.ClientSize = new System.Drawing.Size(1248, 587);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.guna2GradientPanel4);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Usuario";
-            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Contraseña";
+            this.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracion";
             this.guna2GradientPanel3.ResumeLayout(false);
