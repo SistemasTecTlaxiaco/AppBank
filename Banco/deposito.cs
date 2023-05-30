@@ -167,5 +167,17 @@ namespace Banco
 
             MessageBox.Show("Deposito Exitoso");
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sesion Abbey = new Sesion();
+            Abbey.Show();
+        }
     }
 }

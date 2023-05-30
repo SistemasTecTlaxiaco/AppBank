@@ -87,7 +87,7 @@ namespace Banco
             this.guna2GradientPanel3.Controls.Add(this.guna2TextBox1);
             this.guna2GradientPanel3.Controls.Add(this.label4);
             this.guna2GradientPanel3.Location = new System.Drawing.Point(407, 12);
-            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.Size = new System.Drawing.Size(771, 562);
             this.guna2GradientPanel3.TabIndex = 5;
@@ -115,7 +115,7 @@ namespace Banco
             this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button7.ForeColor = System.Drawing.Color.Black;
             this.guna2Button7.Location = new System.Drawing.Point(401, 297);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(180, 39);
             this.guna2Button7.TabIndex = 49;
@@ -131,7 +131,7 @@ namespace Banco
             this.guna2Button9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button9.ForeColor = System.Drawing.Color.White;
             this.guna2Button9.Location = new System.Drawing.Point(147, 297);
-            this.guna2Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button9.Name = "guna2Button9";
             this.guna2Button9.Size = new System.Drawing.Size(237, 39);
             this.guna2Button9.TabIndex = 48;
@@ -160,7 +160,7 @@ namespace Banco
             this.guna2TextBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Location = new System.Drawing.Point(293, 198);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -181,7 +181,7 @@ namespace Banco
             this.guna2TextBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(293, 129);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -208,7 +208,7 @@ namespace Banco
             this.guna2GradientPanel4.BorderRadius = 20;
             this.guna2GradientPanel4.Controls.Add(this.guna2Button5);
             this.guna2GradientPanel4.Location = new System.Drawing.Point(1181, 12);
-            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.Size = new System.Drawing.Size(53, 562);
             this.guna2GradientPanel4.TabIndex = 7;
@@ -227,7 +227,7 @@ namespace Banco
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button5.Location = new System.Drawing.Point(4, 6);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(45, 42);
             this.guna2Button5.TabIndex = 4;
@@ -241,7 +241,7 @@ namespace Banco
             this.guna2GradientPanel2.Controls.Add(this.guna2Button10);
             this.guna2GradientPanel2.Controls.Add(this.label1);
             this.guna2GradientPanel2.Location = new System.Drawing.Point(103, 12);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.Size = new System.Drawing.Size(272, 562);
             this.guna2GradientPanel2.TabIndex = 4;
@@ -257,7 +257,7 @@ namespace Banco
             this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.Black;
             this.guna2Button6.Location = new System.Drawing.Point(37, 154);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(180, 39);
             this.guna2Button6.TabIndex = 36;
@@ -275,7 +275,7 @@ namespace Banco
             this.guna2Button10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button10.ForeColor = System.Drawing.Color.Black;
             this.guna2Button10.Location = new System.Drawing.Point(4, 71);
-            this.guna2Button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button10.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button10.Name = "guna2Button10";
             this.guna2Button10.Size = new System.Drawing.Size(264, 73);
             this.guna2Button10.TabIndex = 35;
@@ -302,7 +302,7 @@ namespace Banco
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.White;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(13, 12);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1222, 563);
             this.guna2GradientPanel1.TabIndex = 6;
@@ -314,7 +314,7 @@ namespace Banco
             this.panel3.Controls.Add(this.guna2VSeparator2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(56, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1166, 563);
             this.panel3.TabIndex = 2;
@@ -333,7 +333,7 @@ namespace Banco
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button3.Location = new System.Drawing.Point(560, 260);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(45, 42);
             this.guna2Button3.TabIndex = 11;
@@ -343,7 +343,7 @@ namespace Banco
             this.guna2VSeparator2.FillColor = System.Drawing.Color.Gray;
             this.guna2VSeparator2.FillThickness = 2;
             this.guna2VSeparator2.Location = new System.Drawing.Point(311, 14);
-            this.guna2VSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2VSeparator2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator2.Name = "guna2VSeparator2";
             this.guna2VSeparator2.Size = new System.Drawing.Size(21, 537);
             this.guna2VSeparator2.TabIndex = 10;
@@ -358,7 +358,7 @@ namespace Banco
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(56, 563);
             this.panel1.TabIndex = 0;
@@ -368,12 +368,13 @@ namespace Banco
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(5, 511);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(43, 39);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 4;
             this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2Button4
             // 
@@ -388,7 +389,7 @@ namespace Banco
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button4.Location = new System.Drawing.Point(4, 202);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(45, 42);
             this.guna2Button4.TabIndex = 3;
@@ -406,10 +407,11 @@ namespace Banco
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button2.Location = new System.Drawing.Point(3, 151);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(45, 42);
             this.guna2Button2.TabIndex = 1;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -424,7 +426,7 @@ namespace Banco
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button1.Location = new System.Drawing.Point(4, 102);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(45, 42);
             this.guna2Button1.TabIndex = 0;
@@ -433,7 +435,7 @@ namespace Banco
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(4, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(48, 44);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -465,7 +467,7 @@ namespace Banco
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Contraseña";
             this.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
