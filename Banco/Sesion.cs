@@ -51,5 +51,12 @@ namespace Banco
             Banco Xbanco = new Banco();
             Xbanco.Show();
         }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Usuario Xbanco = new Usuario();
+            Xbanco.Show();
+        }
     }
 }
